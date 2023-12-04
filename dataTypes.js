@@ -2,6 +2,7 @@
 
 
 // Primitive
+
 const name = "Name";
 const age = 18;
 const isAdult = true;
