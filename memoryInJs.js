@@ -1,5 +1,5 @@
 // Memory Types
-// stack -> Primitive 9 Copy of original value )
+// stack -> Primitive ( Copy of original value )
 // heap -> Non - Primitive ( Reference of original value )
 
 let userName = "Ahaan Soni";
