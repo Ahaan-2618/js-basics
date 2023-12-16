@@ -7,7 +7,7 @@ const myObj = {
   name: "Ahaan",
   age: 18,
   location: "Jaipur",
-  fullName: "Ahaan Soni", // we can not access this value by ( . ) so square notation will be used
+  fullName: "Ahaan Soni", // we can not access this value by ( . ) so bracket notation will be used
   [mySym]: "myKey1",
 };
 
