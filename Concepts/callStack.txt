@@ -1,0 +1,4 @@
+1. Global execution
+
+- Run function - JS will put function in call stack and remove after completion from call stack
+- Stack work in LIFO 

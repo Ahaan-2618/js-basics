@@ -1,0 +1,30 @@
+------ How JS will run perticular file -------
+https://www.youtube.com/watch?v=ByhtOgF6uYM&list=PLu71SKxNbfoBuX3f4EOACle2y-tRC5Q37&index=27&ab_channel=ChaiaurCode
+
+1. Global EC ( Execution context )
+2. Functional EC 
+3. Eval EC ( In Mongo, property of GEC )
+
+-> Browser EC ( Where we this refers to window in browser)
+-> NodeJS or any Other 
+
+------- { JS Code } --------
+
+Phase 1 -
+
+        - Global execution / enviourment 
+        - Allocate code into this keyword 
+
+
+Phase 2 - Memory ( Creation Phase )
+
+        - Allocation of memory, no Execution
+        - Ex - var1 = undefined
+        - Ex - function = defination
+
+Phase 3 - Execution Phase
+
+        - var1 = 10; 
+        - Ex - let result = addNum(10,5) then it will create it's own enviourment ( New executional context ) -> new variable enviourment + execution thread
+                                                                                                                 and same thing will happen again EC + MC
+        - This will be deleted later
